@@ -14,7 +14,7 @@ You will also see any lint errors in the console.
 
 ## `Project Structure`
 
-The resume application is wrapped in a class component located in src folder
+The resume application is wrapped in App component located in src folder
 
 The resume sections components are located in the components folder in src
 
