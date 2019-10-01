@@ -4,9 +4,9 @@ import Education from './Education';
 
 describe('Education', () => {
     let wrapper
-    beforeEach(() => wrapper = shallow(<Education />))
+    beforeEach(() => wrapper = shallow(<Education educationInformation={educationInformation} />))
     it('should render a section wrapper', () => {
         expect(wrapper.find('section').length).toEqual(1);
     })
- 
+
 })

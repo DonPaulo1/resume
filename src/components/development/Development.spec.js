@@ -4,9 +4,9 @@ import Development from './Development';
 
 describe('Development', () => {
     let wrapper
-    beforeEach(() => wrapper = shallow(<Development />))
+    beforeEach(() => wrapper = shallow(<Development personalDevelopmentData={[]} />))
     it('should render a section wrapper', () => {
         expect(wrapper.find('section').length).toEqual(1);
     })
 
-})
+}) 

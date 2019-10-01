@@ -4,7 +4,7 @@ import Experience from './Experience';
 
 describe('Experience', () => {
     let wrapper
-    beforeEach(() => wrapper = shallow(<Experience />))
+    beforeEach(() => wrapper = shallow(<Experience experienceData={} />))
     it('should render a section wrapper', () => {
         expect(wrapper.find('section').length).toEqual(1);
     })
