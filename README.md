@@ -45,7 +45,7 @@ This section contains education information
 
 This section contains my personal development activities, courses
 
-### Interests
+### Interests and strength
 
 This section contains information about my professional interests
 
